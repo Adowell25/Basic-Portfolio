@@ -7,23 +7,18 @@ body {
     border: solid #dddddd;
 }
 
-header {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+header{
+    float: left;
     position: relative;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: #4aaaa5;
     color:rgb(196, 191, 191);
     width: 14%;
-    margin-left: 20px;
-    padding: 30px;
+    padding: 20px;
+
 }
 
-img {
-    float: left;
-    height: 200px;
-    width: 200px;
-}
-
-ul {
+ul{
     float:right;
     list-style-type: none;
     padding: 12px;
@@ -31,62 +26,68 @@ ul {
     margin-top: -90px;
     height: 65.5px;
     width: 97.5%;
-    
-}
 
-li {
+}
+ 
+li{
     float: right;
-    padding: 20px;
+    padding: 30px;
+   
 }
 
-li a {
+li a{
     display: inline;
     color: darkgrey;
 }
 
-/*nav {
-    background-color: #ebebeb;
-    margin-left: 80px;
-    width: 650px;
-    padding: 50px;
-    text-align: center;
-    
-}*/
-
 div{
     background-color: #ebebeb;
-    width: auto;
-    margin-top: 50px;
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-bottom: 10px;
-    padding: 20px;
-    border: #dddddd;
+    margin-top: 80px;
+    /*border: #dddddd;*/
 }
-h1
-{
+
+h1{
+   
     background-color: #ebebeb;
     color: #4aaaa5;
-    margin-top: 10px;
-    margin-left: 80px;
+    margin-top: 90px;
+    margin-bottom: 20px;
     padding: 20px;
     padding-bottom: 20px;
-    /*width: 650*/
-    height: 40px;
+    width: 95.8%;
+    height: 35px;
+}
+form{
+    margin:20px;
+    margin-bottom: 0px;
+    width: 100%;
+    padding-left: 50px;
 }
 
-p {
-    background-color: #ebebeb;
-    color: #777777;
-    margin-left: 80px;
-    padding: 20px;
-    width: 650px;
-    height: 300px;
-    line-height:  25px;
+input[type="text"],select{
+    width: 60%;
+    padding: 12px;
+    font-size: 12px;
 }
+
+textarea{
+    width: 63%;
+    font-size: 15px;
+
+}
+
+input[type="submit"]{
+    width: 10%;
+    background-color: #4aaaa5;
+    color:rgb(196, 191, 191);
+    cursor: pointer;
+    margin-bottom: 15px;
+    padding: 10px;
+}
+
 
 footer {
-    position: absolute;
+        position: absolute;
         bottom: 0;
         background-color: #666666;
         text-align: bottom;
@@ -98,4 +99,5 @@ footer {
         padding-top: 20px;
         border-top: solid #4aaaa5;
         border-width: 10px;
+    
 }
